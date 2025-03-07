@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pilz Safety Lifecycle</title>
+</head>
+<body>
+
+<h1>Pilz Safety Lifecycle</h1>
+<img src="lifecycle.png" alt="Pilz Safety Lifecycle" usemap="#lifecyclemap">
+
+<map name="lifecyclemap">
+  <area shape="rect" coords="100,200,270,350" alt="Computer" href="lifecycle.png">
+
+
+</body>
+</html>
