@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interactive Infographic</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+        .image-container {
+            position: relative;
+            right: 70px;
+        }
+        img {
+            height: auto;
+            display: block;
+        }
+        .clickable-area {
+            position: absolute;
+            cursor: pointer;
+            background: rgba(255, 0, 0, 0.5); /* For visibility, remove if needed */
+        }
+        .text-box {
+            margin-left: 20px;
+            max-width: 40%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Image with clickable areas -->
+        <div class="image-container">
+            <img src="images/lifecycle.png" alt="Infographic">
+            <div class="clickable-area" style="top: 20%; left: 30%; width: 10%; height: 10%;" onclick="showText('This is information about Area 1.')"></div>
+            <div class="clickable-area" style="top: 50%; left: 60%; width: 15%; height: 15%;" onclick="showText('This is information about Area 2.')"></div>
+        </div>
+
+        <!-- Text box where the information appears -->
+        <div class="text-box" id="info-box">
+            Click on an area to see information.
+        </div>
+    </div>
+
+    <script>
+        function showText(text) {
+            document.getElementById("info-box").innerText = text;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+.container { /* ?? */
+    display: flex;
+    align-items: flex-start;
+}
+
+.lifecycle-image-container {
+    position: relative; 
+}
+
+.lifecycle-image-container img {
+    position: relative;
+    right: 100px;
+}
+
+.clickable-area {
+    position: absolute;
+    cursor: pointer;
+    background: rgba(255, 0, 0, 0.5); /* For visibility, remove if needed */
+}
+
+.check {
+    top: 5%;
+    left: 10%;
+    width: 20%;
+    height: 20%;
+    clip-path: polygon(10% 10%, 90% 10%, 80% 90%, 20% 90%);
+}
+
+.design {
+    top: 30%;
+    left: 15%;
+    width: 25%;
+    height: 15%;
+    clip-path: polygon(10% 10%, 80% 10%, 90% 80%, 20% 80%);
+}
+
+.define {
+    top: 50%;
+    left: 50%;
+    width: 10%;
+    height: 10%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.assess {
+    top: 20%;
+    left: 70%;
+    width: 15%;
+    height: 30%;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 20% 100%);
+}
+
+.comply {
+    top: 40%;
+    left: 10%;
+    width: 30%;
+    height: 10%;
+    clip-path: polygon(10% 0%, 50% 100%, 100% 0%);
+}
+
+.assess2 {
+    top: 70%;
+    left: 5%;
+    width: 10%;
+    height: 15%;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+
+.define2 {
+    top: 15%;
+    left: 30%;
+    width: 25%;
+    height: 25%;
+    clip-path: polygon(10% 10%, 90% 10%, 80% 90%, 20% 90%);
+}
+
+.design2 {
+    top: 60%;
+    left: 55%;
+    width: 20%;
+    height: 15%;
+    clip-path: polygon(10% 10%, 90% 10%, 70% 90%, 30% 90%);
+}
+
+.install {
+    top: 80%;
+    left: 30%;
+    width: 15%;
+    height: 15%;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.check2 {
+    top: 10%;
+    left: 80%;
+    width: 10%;
+    height: 20%;
+    clip-path: polygon(10% 10%, 90% 0%, 80% 90%, 20% 90%);
+}
+
+.maintain {
+    top: 25%;
+    left: 50%;
+    width: 20%;
+    height: 25%;
+    clip-path: polygon(10% 10%, 90% 10%, 70% 90%, 30% 90%);
+}
+
+
